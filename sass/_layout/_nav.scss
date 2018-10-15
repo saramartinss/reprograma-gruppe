@@ -1,0 +1,17 @@
+.nav {
+    height: 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__menu-hamburger{
+   width: 35px;
+}
+
+.sections {
+    display: none;
+}

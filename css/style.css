@@ -1,75 +1,83 @@
 * {
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    font-family: 'Flamenco';
-    margin: 0;
-    font-size: 2rem;
+  font-family: 'Flamenco';
+  margin: 0;
+  font-size: 2rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .nav {
-    height: 60px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-    display: flex;
-    justify-content: space-around;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.nav__menu-hamburger{
-   width: 35px;
+.nav__menu-hamburger {
+  width: 35px;
 }
 
 .sections {
-    display: none;
+  display: none;
 }
 
-.header{
-    background-image: url(../img/bg-banner.png);
-    background-size: cover;
-    position: relative;
-    height: 70vh;
-    color: #fff;
-    padding-top: 50px;
+.header {
+  background-image: url(../img/bg-banner.png);
+  background-size: cover;
+  position: relative;
+  height: 70vh;
+  color: #fff;
+  padding-top: 50px;
 }
 
-.header__content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 10px;
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 10px;
 }
 
-.header__title{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-weight: lighter;
+.header__title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
-.header__text{
-    font-family: 'Asap';
-    font-size: 1.5rem;
+.header__text {
+  font-family: 'Asap';
+  font-size: 1.5rem;
 }
-
-.header__btn{
-    font-size: 
-}
+/*# sourceMappingURL=style.css.map */
